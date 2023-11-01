@@ -3,3 +3,14 @@
     padding: 0;
     list-style-type: none;}
 
+@font-face{
+font-family: 'Gratina.eot';
+src: url('fonts/Gratina.eot');}
+
+@font-face{
+font-family: 'TimesSansSerif.eot';
+src: url('fonts/TimesSansSerif');
+}
+
+
+
