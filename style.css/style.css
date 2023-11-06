@@ -119,7 +119,10 @@ color: #03835c;}
     flex-wrap: wrap;}
 
 .home main section:last-of-type li{
-    margin: 1mm;}
+    margin: 2mm;
+    background-color: white;
+    padding: 2mm;
+    border-radius: 5%;}
 
 .home main section:first-of-type{
     margin-top: 1%;
