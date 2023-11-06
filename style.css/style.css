@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: 'TimesSansSerif';} 
+    font-family: 'Nexa-ExtraLight';} 
 
 @font-face{
     font-family:'Nexa-Heavy.eot';
-    src: url('fonts/Nexa-Heavy');}
+    src: url('style.css/fonts/Nexa-Heavy');}
 
 @font-face{
-    font-family: 'Nexa-ExtraLight.eot';
-    src: url('fonts/Nexa-ExtraLight');}
+    font-family:'Nexa-ExtraLight.eot';
+    src: url('style.css/fonts/Nexa-ExtraLight');}
 
 h1,h2,h3,h4{
-    font-family:'Nexa-Heavy';}
+    font-family:'Nexa-Heavy.';}
 
 body{
     background-color: #e2e8e2;
@@ -91,8 +91,14 @@ body section{
 
 .home{
     background-color: #073526;
-    color:whitesmoke;
-}
+    color:whitesmoke;}
+
+.home h1 img{
+    margin-right: 10em;
+    background-color: #e2e8e2;
+    padding: 2mm;
+    border-radius: 2%;
+    }
 
 h1{
     color: whitesmoke;
@@ -101,7 +107,8 @@ h1{
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
     text-align:center;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+font-size:x-large;}
 
 .home h2{
 color: #03835c;}
