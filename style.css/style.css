@@ -65,7 +65,11 @@ nav{
     background-color: #03835c;
     margin:3mm;
     margin-bottom: 0;
-    border-radius: 1mm;}
+    border-radius: 1mm;
+    color: whitesmoke;}
+
+.overons h2{
+    color: #073526;}
 
 body section{
     margin-top: 1em;}
@@ -79,11 +83,13 @@ body section{
     margin-left: 0;}
 
 .gerechten ul:first-of-type{
-    margin-top: 1em;}
+    margin-top: 1em;
+    display: flex;}
 
-.fotosgerechten section li{
-    flex-direction:row;
-    padding: 3mm;}
+.gerechten section:first-of-type ul li{
+    margin: 5mm;
+    }
+
 
 .fotosgerechten{
     margin-bottom:2em;
@@ -108,7 +114,7 @@ h1{
     border-bottom-right-radius: 15%;
     text-align:center;
     text-transform: capitalize;
-font-size:x-large;}
+    font-size:x-large;}
 
 .home h2{
 color: #03835c;}
@@ -180,7 +186,7 @@ footer{
     display: flex;}
 
 .homepompoen ul:first-of-type li{
-    margin: 2mm;
+    margin: 4mm;
     background-color: #e2e8e2;
     padding: 2mm;
     border-color: #171717;
