@@ -46,26 +46,23 @@ nav a{
     }
     
 .overons{
-    background-position: center center;
+    background-position:center center;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
     background-color: #e2e8e2;
-    margin-bottom: 3em;
-}
+    margin-bottom: 3em;}
 
 .overons main{
     background-color: #073526;
     margin: 2mm;
-    margin-bottom: 0;
-    padding: 1mm;
-}
+    padding: 1mm;}
 
 .overons section{
     background-color: #03835c;
-    margin:3mm;
-    margin-bottom: 0;
-    border-radius: 1mm;
+    padding-left:1%;
+    margin:3mm
+    border-radius:1mm;
     color: whitesmoke;}
 
 .overons h2{
@@ -100,8 +97,7 @@ w
     margin-right: 10em;
     background-color: #e2e8e2;
     padding: 2mm;
-    border-radius: 2%;
-    }
+    border-radius: 2%;}
 
 h1{
     color: whitesmoke;
@@ -146,18 +142,29 @@ footer{
     padding-left: 1mm;
     color: #171717;}
 
+footer ul
+    {display: flex;}
+
+footer li{
+    margin-right: 3%;
+    border-radius: 5%;
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    background-color: #171717;}
+
 .resultaat{
     background-color:#e2e8e2;
     margin-left: 1%;}
 
 .resultaat p{
-margin: 7%;
+    margin: 7%;
 }
 
 .resultaat img{
     background-color: #171717;
     padding: 3%;}
-    
+
 .pompoensoep h3{
     background-color:whitesmoke;
     padding-bottom: 10em;
