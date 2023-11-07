@@ -16,45 +16,37 @@ h1,h2,h3,h4{
     font-family:'Nexa-Heavy';}
 
 body{
-    background-color: #e2e8e2;
-    }
+    background-color: #e2e8e2;}
     
 nav{ 
-    display: flex;
     width: 100%;
-    height:3em;
+    height:2em;
     overflow-x: auto;
     justify-content: center;
     position:fixed;
     bottom: 0;
     border-radius: 3%;
     background-color: rgb(32, 31, 31);
+    padding: 2mm;
     }
 
-nav ul{
+nav ul {
     display: flex;
-    margin-top: 1em;
-    flex-wrap: wrap;
+    justify-content: space-around;
     }
     
 nav a{
     text-decoration: none;
-    overflow: hidden;
-    white-space: nowrap;
-    padding-right: 2em;
-    color: white;
+    margin: 1em;
     }
     
+
 .overons{
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-size: cover;
-    background-color: #e2e8e2;
-    margin-bottom: 3em;}
+    background-color: #e2e8e2;}
 
 .overons main{
     background-color: #073526;
+    border: #e2e8e2;
     margin: 2mm;
     padding: 1mm;}
 
@@ -75,15 +67,13 @@ body section{
 .fotosgerechten section ul{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
-    padding-left: 0;
-    margin-left: 0;}
+    margin-left: 1em;}
 
 .gerechten ul:first-of-type{
     display: flex;}
 
 .fotosgerechten li{
-    padding-left: 5%;}
+   text-align: center;}
 
 .fotosgerechten{
     margin-bottom:2em;
@@ -94,15 +84,19 @@ body section{
     color:whitesmoke;}
 
 .home h1 img{
-    margin-right: 10em;
     background-color: #e2e8e2;
     padding: 2mm;
     border-radius: 2%;}
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #e2e8e2;
+    padding: 1mm;}
+
 
 h1{
     color: whitesmoke;
     background-color: #171717;
-    padding:3mm;
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
     text-align:center;
@@ -125,15 +119,13 @@ color: #03835c;}
     flex-wrap: wrap;}
 
 .home main section:last-of-type li{
+    text-align:center;
     margin: 2mm;
     background-color: white;
-    padding: 2mm;
     border-radius: 5%;}
 
 .home main section:first-of-type{
-    margin-top: 1%;
-    line-height: 6mm;
-    text-size-adjust:6%;}
+    line-height: 7mm;}
 
 footer{
     padding-top: 1mm;
@@ -148,18 +140,12 @@ footer ul
 footer li{
     margin-right: 3%;
     border-radius: 5%;
-    padding: 1%;
-    padding-right: 3%;
-    padding-left: 3%;
+    padding: 2%;
     background-color: #171717;}
 
 .resultaat{
     background-color:#e2e8e2;
-    margin-left: 1%;}
-
-.resultaat p{
-    margin: 7%;
-}
+    text-align: center;}
 
 .resultaat img{
     background-color: #171717;
@@ -178,7 +164,6 @@ footer li{
 
 .procentbalk{
     padding:3mm;
-    padding-right: 10em;
     border-radius:15%;
     border-start-start-radius: 15%;
     background-color:whitesmoke;}
@@ -197,5 +182,4 @@ footer li{
     border-color: #171717;
     border-style:solid;
     border-radius: 10%;}
-
 
