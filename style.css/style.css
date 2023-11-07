@@ -30,7 +30,7 @@ nav{
     border-radius: 3%;
     background-color: rgb(32, 31, 31);
     }
-    
+
 nav ul{
     display: flex;
     margin-top: 1em;
@@ -62,7 +62,7 @@ nav a{
     background-color: #03835c;
     padding-left:1%;
     margin:3mm
-    border-radius:1mm;
+    border-radius 1mm;
     color: whitesmoke;}
 
 .overons h2{
@@ -84,7 +84,7 @@ body section{
 
 .fotosgerechten li{
     padding-left: 5%;}
-w
+
 .fotosgerechten{
     margin-bottom:2em;
     background-color: #cbd1cb;}
