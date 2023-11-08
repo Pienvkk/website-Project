@@ -164,8 +164,9 @@ footer li{
     background-color:#e2e8e2;
     text-align: center;}
 
-.resultaat img{
-    border-radius:5%;}
+.resultaat section{
+box-shadow:#171717;
+}
 
 .resultaat section:last-of-type ul{
     display: flex;
