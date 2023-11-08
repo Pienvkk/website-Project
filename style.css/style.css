@@ -3,8 +3,10 @@
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
-    font-family:'Nexa-ExtraLight';
-    scroll-behavior: smooth;} 
+    font-family:'Nexa-ExtraLight';} 
+
+html{
+scroll-behavior: smooth;}
 
 @font-face{
     font-family:'Nexa-Heavy';
@@ -22,13 +24,12 @@ body{
     
 nav{ 
     width: 100%;
-    height:3em;
     overflow-x: auto;
     justify-content: center;
     position:fixed;
     bottom: 0;
     border-radius: 3%;
-    background-color: rgb(32, 31, 31);
+    background-color: #171717;
     padding: 2mm;
     }
 
@@ -39,8 +40,7 @@ nav ul {
     
 nav a{
     text-decoration: none;
-    }
-    
+    }   
 
 .overons{
     background-color: #e2e8e2;}
@@ -61,14 +61,10 @@ nav a{
 .overons h2{
     color: #073526;}
 
-body section{
-    margin-top: 1em;}
-
-
 .fotosgerechten section ul{
     display: flex;
-    flex-wrap:wrap;
-    margin-left: 1em;}
+    flex-wrap: wrap;
+    justify-content: space-around;}
 
 .fotosgerechten h2{
     display: flex;
@@ -84,7 +80,16 @@ body section{
 .gerechten li{
     border-style: solid;
     padding:1mm;
-    border-radius: 10%;}
+    border-radius: 10%;
+    margin: 1em;}
+
+.fotosgerechten img{
+    border-radius: 5%;}
+
+.fotosgerechten img:active{
+    border-style: solid;
+    border-color: #171717;
+    transition: 4s;}
 
 .fotosgerechten{
     margin-bottom:2em;
@@ -158,18 +163,19 @@ footer li{
     text-align: center;}
 
 .resultaat img{
-    background-color: #171717;
-    padding: 3%;
     border-radius:5%;}
 
 .resultaat section:last-of-type ul{
-    display: flex;}
+    display: flex;
+    flex-direction:column;}
 
 .pompoensoep h3{
-    background-color:whitesmoke;
-    padding-bottom: 10em;
-    background-image: url(images/voorgerechten/pompoensoep.jpg);
+    background-color:#e2e8e2;
     border-radius: 5%;}
+
+.pompoensoep img{
+    border-radius: 5%;
+    margin: 1em;}
 
 .procentbalk{
     padding:3mm;
