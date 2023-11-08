@@ -54,8 +54,8 @@ nav a{
 .overons section{
     background-color: #03835c;
     padding-left:1%;
-    margin:3mm
-    border-radius 1mm;
+    margin:3mm;
+    border-radius: 5%;
     color: whitesmoke;}
 
 .overons h2{
@@ -163,10 +163,6 @@ footer li{
 .resultaat{
     background-color:#e2e8e2;
     text-align: center;}
-
-.resultaat section{
-box-shadow:#171717;
-}
 
 .resultaat section:last-of-type ul{
     display: flex;
