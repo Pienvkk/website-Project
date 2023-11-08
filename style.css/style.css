@@ -70,6 +70,13 @@ body section{
     flex-wrap:wrap;
     margin-left: 1em;}
 
+.fotosgerechten h2{
+    display: flex;
+    justify-content: center;
+    background-color: #171717;
+    color: whitesmoke;
+    font-size: 130%;}
+
 .gerechten ul{
     display: flex;
     justify-content: space-around;}
