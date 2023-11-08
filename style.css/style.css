@@ -86,7 +86,6 @@ body section{
     padding:1mm;
     border-radius: 10%;}
 
-
 .fotosgerechten{
     margin-bottom:2em;
     background-color: #cbd1cb;}
@@ -160,7 +159,11 @@ footer li{
 
 .resultaat img{
     background-color: #171717;
-    padding: 3%;}
+    padding: 3%;
+    border-radius:5%;}
+
+.resultaat section:last-of-type ul{
+    display: flex;}
 
 .pompoensoep h3{
     background-color:whitesmoke;
