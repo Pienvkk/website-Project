@@ -135,7 +135,9 @@ h1{
 
 .home main section:last-of-type li{
     text-align:center;
-    margin: 2mm;
+    margin: 1mm;
+    padding-right: 5%;
+    padding-left: 5%;
     background-color: white;
     border-radius: 5%;}
 
