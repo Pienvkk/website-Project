@@ -34,12 +34,10 @@ nav{
 
 nav ul {
     display: flex;
-    justify-content: space-around;
-    }
+    justify-content: space-around;}
     
 nav a{
-    text-decoration: none;
-    }   
+    text-decoration: none;}   
 
 nav img:active{
 border-color: whitesmoke;
@@ -114,8 +112,6 @@ transition: 25ms;}
     justify-content: center;
     background-color: #e2e8e2;
     padding: 1mm;}
-
-
 h1{
     color: whitesmoke;
     background-color: #171717;
@@ -127,7 +123,6 @@ h1{
 
 .home h2{
     color: #03835c;}
-
 
 .home main section:last-of-type{
     background-image:url(style.css../../images/opmaak/lay-out\ handen.png);
@@ -174,9 +169,9 @@ footer li{
     margin: 1%;}
 
 .resultaat section:first-of-type ul{
-display: flex;
-justify-content: space-between;
-flex-direction: row;}
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;}
 
 .resultaat section:last-of-type ul{
     display: flex;
