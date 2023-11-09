@@ -174,22 +174,26 @@ footer li{
 
 .pompoensoep img{
     border-radius: 5%;
-    margin: 1em;}
+    margin-left: 1em;}
 
 .procentbalk{
-    padding:3mm;
+    padding:2mm;
     border-radius:15%;
     border-start-start-radius: 15%;
     background-color:whitesmoke;}
 
+.homepompoen ol{
+    display: flex;
+    flex-direction: column;}
+
+.homepompoen ol li{
+    margin: 2%;}
+
 .pompoensoep p{
     background-color: #171717;
-    padding:1em;}
-
-.pompoensoep li{
-    margin-top: 1em;
-    background-color: whitesmoke;}
-
+    padding:3mm;
+    border-radius: 10%;}
+    
 .homepompoen section ul{
     display: flex;}
 
@@ -197,4 +201,15 @@ footer li{
     border-style: solid;
     margin: 1mm;}
 
-
+.homepompoen section :last-of-type a{
+    background-color: #171717;
+    color: white;
+    text-decoration: none;
+    padding: 2mm;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nexa-Heavy';
+    margin: 5%;
+    width: 60%;
+    border-radius: 10%;
+    }
