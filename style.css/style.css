@@ -77,10 +77,6 @@ transition: 25ms;}
     color: whitesmoke;
     font-size: 130%;}
 
-.gerechten ul{
-    display: flex;
-    justify-content: space-around;}
-
 .gerechten li{
     border-style: solid;
     padding:1mm;
@@ -88,7 +84,8 @@ transition: 25ms;}
     margin: 1em;}
 
 .fotosgerechten img{
-    border-radius: 5%;}
+    border-radius: 5%;
+margin: 1mm;}
 
 .fotosgerechten img:active{
     border-style: solid;
