@@ -42,6 +42,13 @@ nav a{
     text-decoration: none;
     }   
 
+nav img:active{
+border-color: whitesmoke;
+border-style: solid;
+border-radius: 50% 50% 50%;
+padding: 2mm;
+transition: 25ms;}
+
 .overons{
     background-color: #e2e8e2;}
 
@@ -123,21 +130,22 @@ h1{
 
 
 .home main section:last-of-type{
-    background-color: #03835c;
-    padding: 15mm;
-    border-top-left-radius: 60%;
-    border-top-right-radius: 60%;
-    text-align: center;}
+    background-image:url(style.css../../images/opmaak/lay-out\ handen.png);
+    padding: 17mm;
+    padding-bottom: 0;
+   }
 
 .home main section:last-of-type ul{
     display: flex;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;}
 
 .home main section:last-of-type li{
     text-align:center;
     margin: 1mm;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 4%;
+    padding-left: 4%;
     background-color: white;
     border-radius: 5%;}
 
@@ -152,12 +160,13 @@ footer{
     color: #171717;}
 
 footer ul
-    {display: flex;}
+    {display: flex;
+    flex-direction: row;}
 
 footer li{
-    margin-right: 3%;
     border-radius: 5%;
     padding: 2%;
+    margin: 1%;
     background-color: #171717;}
 
 .resultaat{
@@ -193,15 +202,20 @@ footer li{
     background-color: #171717;
     padding:3mm;
     border-radius: 10%;}
-    
+
 .homepompoen section ul{
-    display: flex;}
+    display: flex;
+    flex-direction:row;}
 
 .homepompoen section:last-of-type li{
-    border-style: solid;
-    margin: 1mm;}
+    margin: 2%;}
 
-.homepompoen section :last-of-type a{
+.homepompoen section:last-of-type img{
+    border-radius: 5%;
+    border-color: #171717;
+    border-style: solid;}
+
+.homepompoen section:last-of-type a{
     background-color: #171717;
     color: white;
     text-decoration: none;
@@ -211,5 +225,4 @@ footer li{
     font-family: 'Nexa-Heavy';
     margin: 5%;
     width: 60%;
-    border-radius: 10%;
-    }
+    border-radius: 10%;}
