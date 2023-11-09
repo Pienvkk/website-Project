@@ -171,7 +171,14 @@ footer li{
 
 .resultaat{
     background-color:#e2e8e2;
-    text-align: center;}
+    text-align: center;
+    margin: 1%;}
+
+.resultaat section:first-of-type ul{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
 
 .resultaat section:last-of-type ul{
     display: flex;
@@ -215,14 +222,3 @@ footer li{
     border-color: #171717;
     border-style: solid;}
 
-.homepompoen section:last-of-type a{
-    background-color: #171717;
-    color: white;
-    text-decoration: none;
-    padding: 2mm;
-    display: flex;
-    justify-content: center;
-    font-family: 'Nexa-Heavy';
-    margin: 5%;
-    width: 60%;
-    border-radius: 10%;}
