@@ -77,15 +77,8 @@ transition: 25ms;}
     color: whitesmoke;
     font-size: 130%;}
 
-.gerechten li{
-    border-style: solid;
-    padding:1mm;
-    border-radius: 10%;
-    margin: 1em;}
-
 .fotosgerechten img{
-    border-radius: 5%;
-margin: 1mm;}
+    border-radius: 5%;}
 
 .fotosgerechten img:active{
     border-style: solid;
@@ -96,6 +89,16 @@ margin: 1mm;}
     margin-bottom:2em;
     background-color: #cbd1cb;}
 
+.gerechten ul{
+display: flex;
+justify-content: space-around;
+}
+
+.gerechten li{
+    border-color: #171717;
+    border-style: solid;
+    padding: 1%;
+    border-radius: 5%;}
 .home{
     background-color: #073526;
     color:whitesmoke;}
