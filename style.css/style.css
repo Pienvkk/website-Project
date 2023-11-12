@@ -92,7 +92,7 @@ transition: 25ms;}
 .gerechten ul{
     display: flex;
     justify-content: space-around;
-margin: 1%;}
+    margin: 1%;}
 
 .gerechten li{
     border-color: #171717;
